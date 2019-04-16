@@ -4,7 +4,7 @@
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-use Illuminate\Config\Repository;
+use October\Rain\Config\Repository;
 use Illuminate\Session\Store as SessionStore;
 use PhpParser\Node\Expr\Cast\Object_;
 
